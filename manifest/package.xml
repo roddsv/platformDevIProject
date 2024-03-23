@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>AccountFilter</members>
+    <members>AccountFilterTest</members>
+    <members>AccountManager</members>
+    <members>AccountManagerTest</members>
+    <members>AccountProcessor</members>
+    <members>AccountProcessorTest</members>
+    <members>AccountRepository</members>
+    <members>AddPrimaryContact</members>
+    <members>AddPrimaryContactTest</members>
+    <members>AnimalLocator</members>
+    <members>AnimalLocatorMock</members>
+    <members>AnimalLocatorTest</members>
+    <members>AnimalsCallouts</members>
+    <members>AnimalsCalloutsTest</members>
+    <members>AnimalsHttpCalloutMock</members>
+    <members>AnnotationsDemo</members>
+    <members>AsyncCalculatorServices</members>
+    <members>AsyncParkService</members>
+    <members>AwesomeCalculator</members>
+    <members>AwesomeCalculatorTest</members>
+    <members>BrazilianDocumentValidator</members>
+    <members>CalculatorCalloutMock</members>
+    <members>calculatorServices</members>
+    <members>Company</members>
+    <members>Covid19</members>
+    <members>Covid19Test</members>
+    <members>CreateDefaultData</members>
+    <members>CreateDefaultDataTest</members>
+    <members>Customer</members>
+    <members>CustomerTest</members>
+    <members>DailyLeadProcessor</members>
+    <members>DailyLeadProcessorTest</members>
+    <members>EmailManager</members>
+    <members>EmailMissionSpecialist</members>
+    <members>FileUtilities</members>
+    <members>FileUtilitiesTest</members>
+    <members>GeocodingService</members>
+    <members>GeocodingServiceTest</members>
+    <members>LeadProcessor</members>
+    <members>LeadProcessorTest</members>
+    <members>MaintenanceRequest</members>
+    <members>MaintenanceRequestHelper</members>
+    <members>MaintenanceRequestHelperTest</members>
+    <members>PagedResult</members>
+    <members>ParkLocator</members>
+    <members>ParkLocatorTest</members>
+    <members>ParkService</members>
+    <members>ParkServiceMock</members>
+    <members>PropertyController</members>
+    <members>PropertyUtility</members>
+    <members>RandomContactFactory</members>
+    <members>SampleDataController</members>
+    <members>SpecialCustomer</members>
+    <members>TaskUtil</members>
+    <members>TaskUtilTest</members>
+    <members>TemperatureConverter</members>
+    <members>TemperatureConverterTest</members>
+    <members>TestAccountDeletion</members>
+    <members>TestDataFactory</members>
+    <members>TestPropertyController</members>
+    <members>TestRestrictContactByName</members>
+    <members>TestSampleDataController</members>
+    <members>TestVerifyDate</members>
+    <members>VerifyDate</members>
+    <members>WarehouseCalloutService</members>
+    <members>WarehouseCalloutServiceMock</members>
+    <members>WarehouseCalloutServiceTest</members>
+    <members>WarehouseSyncSchedule</members>
+    <members>WarehouseSyncScheduleTest</members>
+    <name>ApexClass</name>
+  </types>
+  <types>
+    <members>FlightSystemsChecklist</members>
+    <members>StationCheck</members>
+    <name>ApexPage</name>
+  </types>
+  <types>
+    <members>TempConverterTaskUtilSuite</members>
+    <name>ApexTestSuite</name>
+  </types>
+  <types>
+    <members>Account</members>
+    <members>AccountAddressTrigger</members>
+    <members>AccountDeletion</members>
+    <members>AddRelatedRecord</members>
+    <members>ClosedOpportunityTrigger</members>
+    <members>ExampleTrigger</members>
+    <members>HelloWorldTrigger</members>
+    <members>MaintenanceRequest</members>
+    <members>RestrictContactByName</members>
+    <members>TestTrigger</members>
+    <name>ApexTrigger</name>
+  </types>
+  <types>
+    <members>default_appointment_scheduling_policy</members>
+    <name>AppointmentSchedulingPolicy</name>
+  </types>
+  <types>
+    <members>Case.Standard</members>
+    <members>Lead.Standard</members>
+    <name>AssignmentRule</name>
+  </types>
+  <types>
+    <members>auraPropertyListMap</members>
+    <members>pageTemplate_2_7_3</members>
+    <name>AuraDefinitionBundle</name>
+  </types>
+  <types>
+    <members>OpenCTI</members>
+    <name>CallCenter</name>
+  </types>
+  <types>
+    <members>SelfSignedCert_16Jul2022_235726</members>
+    <name>Certificate</name>
+  </types>
+  <types>
+    <members>DataCloudGeoLocation</members>
+    <name>CleanDataService</name>
+  </types>
+  <types>
+    <members>Internal Zone</members>
+    <name>Community</name>
+  </types>
+  <types>
+    <members>Broker__c.Broker_Compact</members>
+    <members>Property__c.Property_Compact_Layout</members>
+    <name>CompactLayout</name>
+  </types>
+  <types>
+    <members>dreamhouselogosquare</members>
+    <name>ContentAsset</name>
+  </types>
+  <types>
+    <members>Dreamhouse</members>
+    <members>How_We_Roll_Maintenance</members>
+    <name>CustomApplication</name>
+  </types>
+  <types>
+    <members>Account.Active__c</members>
+    <members>Account.CustomerPriority__c</members>
+    <members>Account.DocumentNumber__c</members>
+    <members>Account.Match_Billing_Address__c</members>
+    <members>Account.Number_Of_Contacts__c</members>
+    <members>Account.NumberofLocations__c</members>
+    <members>Account.SLA__c</members>
+    <members>Account.SLAExpirationDate__c</members>
+    <members>Account.SLASerialNumber__c</members>
+    <members>Account.UpsellOpportunity__c</members>
+    <members>Activity.DB_Activity_Type__c</members>
+    <members>Author__c.Email__c</members>
+    <members>Broker__c.Broker_Id__c</members>
+    <members>Broker__c.Email__c</members>
+    <members>Broker__c.Mobile_Phone__c</members>
+    <members>Broker__c.Phone__c</members>
+    <members>Broker__c.Picture__c</members>
+    <members>Broker__c.Picture_IMG__c</members>
+    <members>Broker__c.Title__c</members>
+    <members>Campaign.DB_Campaign_Tactic__c</members>
+    <members>Case.Date_Due__c</members>
+    <members>Case.Date_Reported__c</members>
+    <members>Case.EngineeringReqNumber__c</members>
+    <members>Case.PotentialLiability__c</members>
+    <members>Case.Product__c</members>
+    <members>Case.SLAViolation__c</members>
+    <members>Case.Vehicle__c</members>
+    <members>Contact.Languages__c</members>
+    <members>Contact.Level__c</members>
+    <members>Equipment_Maintenance_Item__c.Equipment__c</members>
+    <members>Equipment_Maintenance_Item__c.Maintenance_Request__c</members>
+    <members>Equipment_Maintenance_Item__c.Quantity__c</members>
+    <members>Goal.OrigGoalId__c</members>
+    <members>How_We_Roll_Settings__c.Is_Data_Created__c</members>
+    <members>Lead.CurrentGenerators__c</members>
+    <members>Lead.DB_Created_Date_without_Time__c</members>
+    <members>Lead.DB_Lead_Age__c</members>
+    <members>Lead.NumberofLocations__c</members>
+    <members>Lead.Primary__c</members>
+    <members>Lead.ProductInterest__c</members>
+    <members>Lead.SICCode__c</members>
+    <members>Metric.OrigMetricId__c</members>
+    <members>Opportunity.CurrentGenerators__c</members>
+    <members>Opportunity.DB_Competitor__c</members>
+    <members>Opportunity.DeliveryInstallationStatus__c</members>
+    <members>Opportunity.MainCompetitors__c</members>
+    <members>Opportunity.OrderNumber__c</members>
+    <members>Opportunity.TrackingNumber__c</members>
+    <members>Product2.Cost__c</members>
+    <members>Product2.Current_Inventory__c</members>
+    <members>Product2.Lifespan_Months__c</members>
+    <members>Product2.Maintenance_Cycle__c</members>
+    <members>Product2.Replacement_Part__c</members>
+    <members>Product2.Warehouse_SKU__c</members>
+    <members>Project__c.EndDate__c</members>
+    <members>Project__c.Start_Date__c</members>
+    <members>Property__c.Address__c</members>
+    <members>Property__c.Assessed_Value__c</members>
+    <members>Property__c.Baths__c</members>
+    <members>Property__c.Beds__c</members>
+    <members>Property__c.Broker__c</members>
+    <members>Property__c.City__c</members>
+    <members>Property__c.Date_Agreement__c</members>
+    <members>Property__c.Date_Closed__c</members>
+    <members>Property__c.Date_Contracted__c</members>
+    <members>Property__c.Date_Listed__c</members>
+    <members>Property__c.Date_Pre_Market__c</members>
+    <members>Property__c.Days_On_Market__c</members>
+    <members>Property__c.Description__c</members>
+    <members>Property__c.Location__c</members>
+    <members>Property__c.Picture__c</members>
+    <members>Property__c.Picture_IMG__c</members>
+    <members>Property__c.Price__c</members>
+    <members>Property__c.Price_Sold__c</members>
+    <members>Property__c.Record_Link__c</members>
+    <members>Property__c.State__c</members>
+    <members>Property__c.Status__c</members>
+    <members>Property__c.Tags__c</members>
+    <members>Property__c.Thumbnail__c</members>
+    <members>Property__c.Thumbnail_IMG__c</members>
+    <members>Property__c.Zip__c</members>
+    <members>Sprint__c.Project__c</members>
+    <members>User.DB_Region__c</members>
+    <members>Vehicle__c.Air_Conditioner__c</members>
+    <members>Vehicle__c.Awning__c</members>
+    <members>Vehicle__c.Backup_Camera_Monitor__c</members>
+    <members>Vehicle__c.Bathroom_Hookup__c</members>
+    <members>Vehicle__c.Bathrooms__c</members>
+    <members>Vehicle__c.Bedrooms__c</members>
+    <members>Vehicle__c.Fancy_Sound_System__c</members>
+    <members>Vehicle__c.Generator__c</members>
+    <members>Vehicle__c.Levelers__c</members>
+    <members>Vehicle__c.License_Plate__c</members>
+    <members>Vehicle__c.Make__c</members>
+    <members>Vehicle__c.Model__c</members>
+    <members>Vehicle__c.Power__c</members>
+    <members>Vehicle__c.Propane_Tank__c</members>
+    <members>Vehicle__c.Recommended_Passengers__c</members>
+    <members>Vehicle__c.Roof_Mounted_Antenna__c</members>
+    <members>Vehicle__c.Shower__c</members>
+    <members>Vehicle__c.Tub__c</members>
+    <members>Vehicle__c.Type__c</members>
+    <members>Vehicle__c.VIN_Number__c</members>
+    <name>CustomField</name>
+  </types>
+  <types>
+    <members>Author__c</members>
+    <members>Broker__c</members>
+    <members>Equipment_Maintenance_Item__c</members>
+    <members>How_We_Roll_Settings__c</members>
+    <members>Project__c</members>
+    <members>Property__c</members>
+    <members>Sprint__c</members>
+    <members>Vehicle__c</members>
+    <name>CustomObject</name>
+  </types>
+  <types>
+    <members>Bike_Card</members>
+    <members>Broker__c</members>
+    <members>Create_Default_Data</members>
+    <members>Equipment_Maintenance_Item__c</members>
+    <members>Property__c</members>
+    <members>Property_Explorer</members>
+    <members>Property_Finder</members>
+    <members>Settings</members>
+    <members>Vehicle__c</members>
+    <members>Working_with_Data</members>
+    <members>Working_with_Data1</members>
+    <name>CustomTab</name>
+  </types>
+  <types>
+    <members>Salesforce_Adoption_Dashboards</members>
+    <members>Salesforce_Adoption_Dashboards/X1_User_Adoption_Logins</members>
+    <members>Salesforce_Adoption_Dashboards/X2_Key_Feature_Adoption</members>
+    <members>Salesforce_Adoption_Dashboards/X3_Sales_Marketing_Adoption</members>
+    <name>Dashboard</name>
+  </types>
+  <types>
+    <members>Account.Standard_Account_Duplicate_Rule</members>
+    <members>Contact.Standard_Contact_Duplicate_Rule</members>
+    <members>Lead.Standard_Lead_Duplicate_Rule</members>
+    <name>DuplicateRule</name>
+  </types>
+  <types>
+    <members>unfiled$public/CommerceReorderPortalInvitation</members>
+    <members>unfiled$public/MarketingProductInquiryResponse</members>
+    <members>unfiled$public/SalesNewCustomerEmail</members>
+    <members>unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForAmazonChime</members>
+    <members>unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForThirdParty</members>
+    <members>unfiled$public/SchedulerUnauthenticatedUserEngagementChannelEmailTemplateForAmazonChime</members>
+    <members>unfiled$public/SchedulerUnauthenticatedUserEngagementChannelEmailTemplateForThirdParty</members>
+    <members>unfiled$public/SupportCaseAssignmentNotification</members>
+    <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+    <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+    <members>unfiled$public/SupportCaseResponse</members>
+    <members>unfiled$public/SupportEscalatedCaseNotification</members>
+    <members>unfiled$public/SupportEscalatedCaseReassignment</members>
+    <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+    <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+    <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+    <members>unfiled$public/SupportSelfServiceResetPassword</members>
+    <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+    <name>EmailTemplate</name>
+  </types>
+  <types>
+    <members>caso padr&#227;o</members>
+    <name>EntitlementProcess</name>
+  </types>
+  <types>
+    <members>Case.Standard</members>
+    <name>EscalationRule</name>
+  </types>
+  <types>
+    <members>Bike_Card</members>
+    <members>Broker_Record_Page</members>
+    <members>ContactCenter_UtilityBar</members>
+    <members>Create_Default_Data</members>
+    <members>CrisisCenter_UtilityBar</members>
+    <members>Home_Page_Default</members>
+    <members>How_We_Roll_Maintenance_UtilityBar</members>
+    <members>LightningSalesConsole_UtilityBar</members>
+    <members>LightningSales_UtilityBar</members>
+    <members>LightningService_UtilityBar</members>
+    <members>Property_Explorer</members>
+    <members>Property_Finder</members>
+    <members>Property_Record_Page</members>
+    <members>Settings</members>
+    <members>Working_with_Data</members>
+    <members>Working_with_Data1</members>
+    <name>FlexiPage</name>
+  </types>
+  <types>
+    <members>AnnotationsDemo</members>
+    <members>Create_property</members>
+    <name>Flow</name>
+  </types>
+  <types>
+    <members>AnnotationsDemo</members>
+    <members>Create_property</members>
+    <name>FlowDefinition</name>
+  </types>
+  <types>
+    <members>DE Default</members>
+    <name>HomePageLayout</name>
+  </types>
+  <types>
+    <members>Account-Account %28Marketing%29 Layout</members>
+    <members>Account-Account %28Sales%29 Layout</members>
+    <members>Account-Account %28Support%29 Layout</members>
+    <members>Account-Account Layout</members>
+    <members>AlternativePaymentMethod-Alternative Payment Method Layout</members>
+    <members>ApiAnomalyEventStore-API Anomaly Event Store Layout</members>
+    <members>AppointmentInvitation-Layout do Convite do compromisso</members>
+    <members>AssetAction-Asset Action Layout</members>
+    <members>AssetActionSource-Asset Action Source Layout</members>
+    <members>Asset-Asset Layout</members>
+    <members>AssetRelationship-Asset Relationship Layout</members>
+    <members>AssetStatePeriod-Asset State Period Layout</members>
+    <members>AssignedResource-Assigned Resource Layout</members>
+    <members>Author__c-Author Layout</members>
+    <members>AuthorizationForm-Authorization Form Layout</members>
+    <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
+    <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
+    <members>AuthorizationFormText-Authorization Form Text Layout</members>
+    <members>Broker__c-Broker Layout</members>
+    <members>BusinessBrand-Layout de Marca de neg&#243;cios</members>
+    <members>Campaign-Campaign Layout</members>
+    <members>CampaignMember-Campaign Member Page Layout</members>
+    <members>CardPaymentMethod-Card Payment Method Layout</members>
+    <members>CartCheckoutSession-Sess&#227;o de finaliza&#231;&#227;o da compra Layout</members>
+    <members>CartDeliveryGroup-Grupo de entrega de carros Layout</members>
+    <members>CartDeliveryGroupMethod-M&#233;todo do grupo de entrega do carrinho Layout</members>
+    <members>CartItem-Layout de Item de carro</members>
+    <members>CartTax-Imposto do carrinho de compras Layout</members>
+    <members>CartValidationOutput-Layout de Sa&#237;da de valida&#231;&#227;o do carrinho</members>
+    <members>Case-Case %28HowWeRoll%29 Layout</members>
+    <members>Case-Case %28Marketing%29 Layout</members>
+    <members>Case-Case %28Sales%29 Layout</members>
+    <members>Case-Case %28Support%29 Layout</members>
+    <members>Case-Case Layout</members>
+    <members>CaseClose-Close Case Layout</members>
+    <members>CaseMilestone-Layout de marcos de casos</members>
+    <members>CommunityMemberLayout-Community Member Layout</members>
+    <members>ConsumptionRate-Consumption Rate Layout</members>
+    <members>ConsumptionSchedule-Consumption Schedule Layout</members>
+    <members>Contact-Contact %28Marketing%29 Layout</members>
+    <members>Contact-Contact %28Sales%29 Layout</members>
+    <members>Contact-Contact %28Support%29 Layout</members>
+    <members>Contact-Contact Layout</members>
+    <members>ContactPointAddress-Contact Point Address Layout</members>
+    <members>ContactPointEmail-Contact Point Email Layout</members>
+    <members>ContactPointPhone-Contact Point Phone Layout</members>
+    <members>ContactPointTypeConsent-Contact Point Type Consent Layout</members>
+    <members>ContentVersion-Content Version Layout</members>
+    <members>Contract-Contract Layout</members>
+    <members>ContractLineItem-Layout de itens de linha do contrato</members>
+    <members>CredentialStuffingEventStore-Credential Stuffing Event Store Layout</members>
+    <members>CreditMemo-Credit Memo Layout</members>
+    <members>CreditMemoLine-Credit Memo Line Layout</members>
+    <members>Customer-Layout de Cliente</members>
+    <members>DandBCompany-D%26B Company Layout</members>
+    <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
+    <members>DataUsePurpose-Data Use Purpose Layout</members>
+    <members>DigitalWallet-Digital Wallet Layout</members>
+    <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+    <members>EmailMessage-Email Message Layout</members>
+    <members>EngagementChannelType-Tipo de canal de engajamento Layout</members>
+    <members>Entitlement-Direito Layout</members>
+    <members>EntityMilestone-Layout de marcos de objeto</members>
+    <members>Equipment_Maintenance_Item__c-Work Part Layout</members>
+    <members>Event-Event Layout</members>
+    <members>FeedItem-Feed Item Layout</members>
+    <members>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</members>
+    <members>FinanceTransaction-Finance Transaction Layout</members>
+    <members>FulfillmentOrder-Fulfillment Order Layout</members>
+    <members>FulfillmentOrderItemAdjustment-Fulfillment Order Item Adjustment Layout</members>
+    <members>FulfillmentOrderItemTax-Fulfillment Order Item Tax Layout</members>
+    <members>FulfillmentOrderLineItem-Fulfillment Order Product Layout</members>
+    <members>Global-Global Layout</members>
+    <members>Idea-Idea Layout</members>
+    <members>Individual-Individual Layout</members>
+    <members>Invoice-Invoice Layout</members>
+    <members>InvoiceLine-Invoice Line Layout</members>
+    <members>Lead-Lead %28Marketing%29 Layout</members>
+    <members>Lead-Lead %28Sales%29 Layout</members>
+    <members>Lead-Lead %28Support%29 Layout</members>
+    <members>Lead-Lead Layout</members>
+    <members>LegalEntity-Legal Entity Layout</members>
+    <members>Macro-Macro Layout</members>
+    <members>OperatingHours-Operating Hours Layout</members>
+    <members>OpportunityContactRole-Opportunity Contact Role Layout</members>
+    <members>OpportunityLineItem-Opportunity Product Layout</members>
+    <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+    <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+    <members>Opportunity-Opportunity %28Support%29 Layout</members>
+    <members>Opportunity-Opportunity Layout</members>
+    <members>OrderItem-Order Product Layout</members>
+    <members>Order-Order Layout</members>
+    <members>PaymentAuthAdjustment-Payment Authorization Adjustment Layout</members>
+    <members>PaymentAuthorization-Payment Authorization Layout</members>
+    <members>PaymentGatewayLog-Payment Gateway Log Layout</members>
+    <members>PaymentGateway-Payment Gateway Layout</members>
+    <members>PaymentGroup-Payment Group Layout</members>
+    <members>PaymentLineInvoice-Payment Line Invoice Layout</members>
+    <members>Payment-Payment Layout</members>
+    <members>Pricebook2-Price Book Layout</members>
+    <members>PricebookEntry-Price Book Entry Layout</members>
+    <members>ProcessException-Process Exception Layout</members>
+    <members>Product2-Product %28HowWeRoll%29 Layout</members>
+    <members>Product2-Product Layout</members>
+    <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
+    <members>Project__c-Project Layout</members>
+    <members>Property__c-Property Layout</members>
+    <members>QuickText-Quick Text Layout</members>
+    <members>RefundLinePayment-Refund Line Payment Layout</members>
+    <members>Refund-Refund Layout</members>
+    <members>ReportAnomalyEventStore-Report Anomaly Event Store Layout</members>
+    <members>ResourceAbsence-Resource Absence Layout</members>
+    <members>ResourcePreference-Resource Preference Layout</members>
+    <members>ReturnOrderItemAdjustment-Return Order Item Adjustment Layout</members>
+    <members>ReturnOrderItemTax-Return Order Item Tax Layout</members>
+    <members>ReturnOrderLineItem-Return Order Line Item Layout</members>
+    <members>ReturnOrder-Return Order Layout</members>
+    <members>ScorecardAssociation-Scorecard Association Layout</members>
+    <members>ScorecardMetric-Scorecard Metric Layout</members>
+    <members>Scorecard-Scorecard Layout</members>
+    <members>Seller-Layout de Vendedor</members>
+    <members>ServiceAppointment-Service Appointment Layout</members>
+    <members>ServiceContract-Layout do contrato de servi&#231;o</members>
+    <members>ServiceResource-Service Resource Layout</members>
+    <members>ServiceResourceSkill-Service Resource Skill Layout</members>
+    <members>ServiceTerritoryMember-Service Territory Member Layout</members>
+    <members>ServiceTerritory-Service Territory Layout</members>
+    <members>SessionHijackingEventStore-Session Hijacking Event Store Layout</members>
+    <members>Shift-Layout do turno</members>
+    <members>SkillRequirement-Skill Requirement Layout</members>
+    <members>SocialPersona-Social Persona Layout</members>
+    <members>Solution-Solution Layout</members>
+    <members>Sprint__c-Sprint Layout</members>
+    <members>Task-Task Layout</members>
+    <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
+    <members>TimeSlot-Time Slot Layout</members>
+    <members>UserAlt-User Profile Layout</members>
+    <members>UserProvAccount-User Provisioning Account Layout</members>
+    <members>UserProvisioningLog-User Provisioning Log Layout</members>
+    <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+    <members>User-User Layout</members>
+    <members>Vehicle__c-Vehicle Layout</members>
+    <members>Waitlist-%5F%5FMISSING LABEL%5F%5F PropertyFile - val Waitlist not found in section StandardLayouts</members>
+    <members>WebCartAdjustmentBasis-Layout de Cart Adjustment Basis</members>
+    <members>WebCartAdjustmentGroup-Layout de Grupo de ajustes do carrinho</members>
+    <members>WebCart-Layout de Carrinho</members>
+    <members>WebStore-Layout de Loja</members>
+    <members>WorkOrderLineItem-Work Order Line Item Layout</members>
+    <members>WorkOrder-Work Order Layout</members>
+    <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
+    <members>WorkTypeGroup-Work Type Group Layout</members>
+    <members>WorkType-Work Type Layout</members>
+    <name>Layout</name>
+  </types>
+  <types>
+    <members>accountCreator</members>
+    <members>app</members>
+    <members>barcodeScanner</members>
+    <members>bikeCard</members>
+    <members>brokerCard</members>
+    <members>contactCreator</members>
+    <members>createData</members>
+    <members>data</members>
+    <members>daysOnMarket</members>
+    <members>detail</members>
+    <members>errorPanel</members>
+    <members>helloWorld</members>
+    <members>ldsUtils</members>
+    <members>list</members>
+    <members>listContactsFromDevice</members>
+    <members>navigateToRecord</members>
+    <members>paginator</members>
+    <members>propertyCarousel</members>
+    <members>propertyFilter</members>
+    <members>propertyLocation</members>
+    <members>propertyMap</members>
+    <members>propertySummary</members>
+    <members>propertyTile</members>
+    <members>propertyTileList</members>
+    <members>sampleDataImporter</members>
+    <members>selector</members>
+    <members>tile</members>
+    <name>LightningComponentBundle</name>
+  </types>
+  <types>
+    <members>FiltersChange</members>
+    <members>PropertySelected</members>
+    <name>LightningMessageChannel</name>
+  </types>
+  <types>
+    <members>Account.AllAccounts</members>
+    <members>Account.MyAccounts</members>
+    <members>Account.NewLastWeek</members>
+    <members>Account.NewThisWeek</members>
+    <members>Account.PlatinumandGoldSLACustomers</members>
+    <members>Activity.AllActivities</members>
+    <members>Activity.MyActivities</members>
+    <members>Activity.TodaysTasks</members>
+    <members>Activity.UpcomingEvents</members>
+    <members>AlternativePaymentMethod.AlternativePaymentMethod</members>
+    <members>AppointmentInvitation.All_AppointmentInvitations</members>
+    <members>AppointmentInvitation.My_AppointmentInvitations</members>
+    <members>AssetAction.AssetAction</members>
+    <members>AssetActionSource.AssetActionSource</members>
+    <members>Asset.AllAssets</members>
+    <members>AssetStatePeriod.AssetStatePeriod</members>
+    <members>AuthorizationForm.All_AuthorizationForms</members>
+    <members>AuthorizationFormConsent.All_AuthorizationFormConsents</members>
+    <members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
+    <members>AuthorizationFormText.All_AuthorizationFormText</members>
+    <members>Broker__c.All</members>
+    <members>BusinessBrand.All_BusinessBrands</members>
+    <members>BuyerGroup.All_Buyer_Groups</members>
+    <members>BuyerGroup.My_Buyer_Groups</members>
+    <members>Campaign.AllActiveCampaigns</members>
+    <members>Campaign.MyActiveCampaigns</members>
+    <members>CardPaymentMethod.CardPaymentMethod</members>
+    <members>Case.AllClosedCases</members>
+    <members>Case.AllOpenCases</members>
+    <members>Case.MyCases</members>
+    <members>Case.MyOpenCases</members>
+    <members>CollaborationGroup.All_ChatterGroups</members>
+    <members>CommSubscription.All_CommSubscriptions</members>
+    <members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
+    <members>CommSubscriptionConsent.All_CommSubscriptionConsents</members>
+    <members>CommSubscriptionTiming.All_CommSubscriptionTimings</members>
+    <members>ConsumptionSchedule.All_ConsumptionSchedules</members>
+    <members>ConsumptionSchedule.My_ConsumptionSchedules</members>
+    <members>Contact.AllContacts</members>
+    <members>Contact.BirthdaysThisMonth</members>
+    <members>Contact.BulkMessageContacts</members>
+    <members>Contact.MyContacts</members>
+    <members>Contact.NewLastWeek</members>
+    <members>Contact.NewThisWeek</members>
+    <members>ContactPointAddress.All_ContactPointAddresses</members>
+    <members>ContactPointConsent.All_ContactPointConsents</members>
+    <members>ContactPointEmail.All_ContactPointEmails</members>
+    <members>ContactPointPhone.All_ContactPointPhones</members>
+    <members>ContactPointTypeConsent.All_ContactPointTypeConsents</members>
+    <members>ContactRequest.My_ContactRequests</members>
+    <members>Contract.AllActivatedContracts</members>
+    <members>Contract.AllContracts</members>
+    <members>Contract.AllDraftContracts</members>
+    <members>Contract.AllInApprovalContracts</members>
+    <members>Contract.MyActivatedContracts</members>
+    <members>Contract.MyDraftContracts</members>
+    <members>Contract.MyInApprovalContracts</members>
+    <members>Coupon.ALL_Coupons</members>
+    <members>CreditMemo.mine</members>
+    <members>Customer.All_Customers</members>
+    <members>DataUseLegalBasis.All_DataUseLegalBases</members>
+    <members>DataUsePurpose.All_DataUsePurposes</members>
+    <members>DigitalWallet.DigitalWallet</members>
+    <members>EngagementChannelType.All_EngagementChannelTypes</members>
+    <members>EngagementChannelWorkType.All_EngagementChannelWorkTypes</members>
+    <members>EngagementChannelWorkType.My_EngagementChannelWorkTypes</members>
+    <members>Entitlement.All_Entitlements</members>
+    <members>Equipment_Maintenance_Item__c.All</members>
+    <members>Event.MyRecentEvents</members>
+    <members>Event.MyTeamsRecentEvents</members>
+    <members>Event.MyTeamsUpcomingEvents</members>
+    <members>Event.MyUpcomingEvents</members>
+    <members>Event.TodaysAgenda</members>
+    <members>FinanceBalanceSnapshot.mine</members>
+    <members>FinanceTransaction.mine</members>
+    <members>FlowOrchestrationInstance.All_Orchestration_Instances</members>
+    <members>FlowOrchestrationWorkItem.ALL_Open_Work_Items</members>
+    <members>FlowOrchestrationWorkItem.All_Work_Items</members>
+    <members>FulfillmentOrder.all_fulfillment_orders</members>
+    <members>Idea.Ideas_Last_7_Days</members>
+    <members>Individual.All_Individuals</members>
+    <members>Invoice.mine</members>
+    <members>Lead.AllOpenLeads</members>
+    <members>Lead.MyUnreadLeads</members>
+    <members>Lead.TodaysLeads</members>
+    <members>Lead.ViewCustom1</members>
+    <members>Lead.ViewCustom2</members>
+    <members>LegalEntity.mine</members>
+    <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
+    <members>OperatingHours.All_OperatingHours</members>
+    <members>Opportunity.AllOpportunities</members>
+    <members>Opportunity.ClosingNextMonth</members>
+    <members>Opportunity.ClosingThisMonth</members>
+    <members>Opportunity.Default_Opportunity_Pipeline</members>
+    <members>Opportunity.MyOpportunities</members>
+    <members>Opportunity.NewLastWeek</members>
+    <members>Opportunity.NewThisWeek</members>
+    <members>Opportunity.Private</members>
+    <members>Opportunity.Won</members>
+    <members>Order.AllActivatedOrders</members>
+    <members>Order.AllDraftOrders</members>
+    <members>Order.AllOrders</members>
+    <members>PartyConsent.All_PartyConsents</members>
+    <members>PaymentAuthAdjustment.PaymentAuthAdjustment</members>
+    <members>PaymentAuthorization.PaymentAuthorization</members>
+    <members>PaymentGateway.PaymentGateway</members>
+    <members>PaymentGroup.PaymentGroup</members>
+    <members>PaymentLineInvoice.PaymentLineInvoice</members>
+    <members>Payment.Payment</members>
+    <members>ProcessException.all_process_exceptions</members>
+    <members>Product2.AllProducts</members>
+    <members>ProductCatalog.All_Product_Catalogs_List_View</members>
+    <members>ProductCategory.All_Product_Categories_List_View</members>
+    <members>ProductCategory.Org_ProductCategory_Hierarchy</members>
+    <members>Property__c.All</members>
+    <members>Recommendation.All_Recommendations</members>
+    <members>RefundLinePayment.RefundLinePayment</members>
+    <members>Refund.Refund</members>
+    <members>ReturnOrder.All_ReturnOrders</members>
+    <members>ReturnOrder.My_ReturnOrders</members>
+    <members>Scorecard.AllScorecards</members>
+    <members>Scorecard.MyScorecards</members>
+    <members>Seller.All_Sellers</members>
+    <members>ServiceAppointment.All_ServiceAppointments</members>
+    <members>ServiceAppointment.MyPendingAppointments</members>
+    <members>ServiceAppointment.MyScheduledAppointments</members>
+    <members>ServiceContract.All_ServiceContracts</members>
+    <members>ServiceResource.All_ServiceResources</members>
+    <members>ServiceResource.My_ServiceResources</members>
+    <members>ServiceTerritory.All_ServiceTerritories</members>
+    <members>ServiceTerritory.My_ServiceTerritories</members>
+    <members>Shift.All_Shifts</members>
+    <members>ShiftEngagementChannel.All_ShiftEngagementChannels</members>
+    <members>ShiftEngagementChannel.My_ShiftEngagementChannels</members>
+    <members>Shift.My_Shifts</members>
+    <members>SocialPersona.AllSocialPersonas</members>
+    <members>Solution.AllReviewedSolutions</members>
+    <members>Solution.AllUnreviewedSolutions</members>
+    <members>Task.CompletedTasks</members>
+    <members>Task.DelegatedTasks</members>
+    <members>Task.OpenTasks</members>
+    <members>Task.OverdueTasks</members>
+    <members>Task.RecurringTasks</members>
+    <members>Task.TodaysTasks</members>
+    <members>Task.UnscheduledTasks</members>
+    <members>User.ActiveUsers</members>
+    <members>User.AdminUsers</members>
+    <members>User.AllUsers</members>
+    <members>Vehicle__c.All</members>
+    <members>Waitlist.All_Waitlists</members>
+    <members>Waitlist.My_Waitlists</members>
+    <members>WebCart.All_WebCarts</members>
+    <members>WebCart.Owned_WebCarts</members>
+    <members>WorkOrder.All_WorkOrders</members>
+    <members>WorkOrder.My_WorkOrders</members>
+    <members>WorkType.All_WorkTypes</members>
+    <members>WorkTypeGroup.All_WorkTypeGroups</members>
+    <members>WorkTypeGroup.My_WorkTypeGroups</members>
+    <members>WorkType.My_WorkTypes</members>
+    <name>ListView</name>
+  </types>
+  <types>
+    <members>cms_document</members>
+    <members>cms_image</members>
+    <members>news</members>
+    <name>ManagedContentType</name>
+  </types>
+  <types>
+    <members>Account.Standard_Account_Match_Rule_v1_0</members>
+    <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+    <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+    <name>MatchingRule</name>
+  </types>
+  <types>
+    <members>Escalonar caso</members>
+    <members>Fechar caso</members>
+    <members>Primeira resposta ao cliente</members>
+    <name>MilestoneType</name>
+  </types>
+  <types>
+    <members>dreamhouse</members>
+    <name>PermissionSet</name>
+  </types>
+  <types>
+    <members>Admin</members>
+    <members>Analytics Cloud Integration User</members>
+    <members>Analytics Cloud Security User</members>
+    <members>Authenticated Website</members>
+    <members>B2B Reordering Portal Buyer Profile</members>
+    <members>Chatter External User</members>
+    <members>Chatter Free User</members>
+    <members>Chatter Moderator User</members>
+    <members>ContractManager</members>
+    <members>Cross Org Data Proxy User</members>
+    <members>Custom%3A Marketing Profile</members>
+    <members>Custom%3A Sales Profile</members>
+    <members>Custom%3A Support Profile</members>
+    <members>Customer Community Login User</members>
+    <members>Customer Community Plus Login User</members>
+    <members>Customer Community Plus User</members>
+    <members>Customer Community User</members>
+    <members>Customer Portal Manager Custom</members>
+    <members>Customer Portal Manager Standard</members>
+    <members>External Apps Login User</members>
+    <members>External Identity User</members>
+    <members>Force%2Ecom - App Subscription User</members>
+    <members>Force%2Ecom - Free User</members>
+    <members>Gold Partner User</members>
+    <members>High Volume Customer Portal User</members>
+    <members>HighVolumePortal</members>
+    <members>Identity User</members>
+    <members>MarketingProfile</members>
+    <members>Minimum Access - API Only Integrations</members>
+    <members>Minimum Access - Salesforce</members>
+    <members>Partner App Subscription User</members>
+    <members>Partner Community Login User</members>
+    <members>Partner Community User</members>
+    <members>PlatformPortal</members>
+    <members>Read Only</members>
+    <members>Salesforce API Only System Integrations</members>
+    <members>Silver Partner User</members>
+    <members>SolutionManager</members>
+    <members>Standard</members>
+    <members>StandardAul</members>
+    <members>Work%2Ecom Only User</members>
+    <name>Profile</name>
+  </types>
+  <types>
+    <members>Property</members>
+    <members>PropertyExplorer</members>
+    <members>PropertyFinder</members>
+    <name>Prompt</name>
+  </types>
+  <types>
+    <members>Case.Close_Case</members>
+    <members>Case.LogACall</members>
+    <members>Case.NewChildCase</members>
+    <members>CollaborationGroup.NewGroupMember</members>
+    <members>CollaborationGroup.NewGroupRecord</members>
+    <members>FeedItem.NewTaskFromFeedItem</members>
+    <members>LogACall</members>
+    <members>NewAccount</members>
+    <members>NewCase</members>
+    <members>NewContact</members>
+    <members>NewEvent</members>
+    <members>NewGroup</members>
+    <members>NewLead</members>
+    <members>NewNote</members>
+    <members>NewOpportunity</members>
+    <members>NewTask</members>
+    <members>SendEmail</members>
+    <members>Task.Defer</members>
+    <members>Task.Defer_0</members>
+    <members>Task.EditDescription</members>
+    <members>Task.EditDescription_0</members>
+    <members>Task.UpdatePriority</members>
+    <members>Task.UpdatePriority_0</members>
+    <members>Task.UpdateStatus</members>
+    <members>Task.UpdateStatus_0</members>
+    <name>QuickAction</name>
+  </types>
+  <types>
+    <members>Metric.Completion</members>
+    <members>Metric.Progress</members>
+    <name>RecordType</name>
+  </types>
+  <types>
+    <members>AnimalLocator</members>
+    <members>animals_http</members>
+    <members>animals_soap</members>
+    <members>ApexDevNet</members>
+    <members>nominatim_openstreetmap</members>
+    <name>RemoteSiteSetting</name>
+  </types>
+  <types>
+    <members>DB_Adoption</members>
+    <members>DB_Adoption/Active_User_Logins</members>
+    <members>DB_Adoption/Active_Users</members>
+    <members>DB_Adoption/DB_Adoption</members>
+    <members>DB_Adoption/DB_Adoption_ACCOUNTS_w_o_Fields_Pop</members>
+    <members>DB_Adoption/DB_Adoption_ACTIVITIES_Wall_of_Fame</members>
+    <members>DB_Adoption/DB_Adoption_ACTIVITIES_Wall_of_Shame</members>
+    <members>DB_Adoption/DB_Adoption_Campaigns</members>
+    <members>DB_Adoption/DB_Adoption_Campaigns_by_Status</members>
+    <members>DB_Adoption/DB_Adoption_Campaigns_Last_30_Days</members>
+    <members>DB_Adoption/DB_Adoption_CONTACTS_wO_Fields_Populated</members>
+    <members>DB_Adoption/DB_Adoption_Count_of_Accounts</members>
+    <members>DB_Adoption/DB_Adoption_Count_of_all_CONTACTS</members>
+    <members>DB_Adoption/DB_Adoption_Count_of_LEADS</members>
+    <members>DB_Adoption/DB_Adoption_Count_of_OPPTYS</members>
+    <members>DB_Adoption/DB_Adoption_Count_of_OPPTYS_last_365</members>
+    <members>DB_Adoption/DB_Adoption_Funnel_Load_Rate</members>
+    <members>DB_Adoption/DB_Adoption_Last_Run_Reports</members>
+    <members>DB_Adoption/DB_Adoption_Lead_Abandonment</members>
+    <members>DB_Adoption/DB_Adoption_Leads_Converted_Last_365</members>
+    <members>DB_Adoption/DB_Adoption_Login_by_Department</members>
+    <members>DB_Adoption/DB_Adoption_Login_by_Region</members>
+    <members>DB_Adoption/DB_Adoption_Login_by_Role</members>
+    <members>DB_Adoption/DB_Adoption_Login_Wall_of_Fame</members>
+    <members>DB_Adoption/DB_Adoption_Login_Wall_of_Shame</members>
+    <members>DB_Adoption/DB_Adoption_Mass_Emails_Created</members>
+    <members>DB_Adoption/DB_Adoption_Neglected_Customers</members>
+    <members>DB_Adoption/DB_Adoption_Neglected_OPPTYS</members>
+    <members>DB_Adoption/DB_Adoption_Neglected_Prospects</members>
+    <members>DB_Adoption/DB_Adoption_New_Accounts_Last_30_Days</members>
+    <members>DB_Adoption/DB_Adoption_New_Accounts_Trend</members>
+    <members>DB_Adoption/DB_Adoption_New_ACTIVITIES_last_30_Days</members>
+    <members>DB_Adoption/DB_Adoption_New_ACTIVITIES_Trend</members>
+    <members>DB_Adoption/DB_Adoption_New_Contacts_Trend</members>
+    <members>DB_Adoption/DB_Adoption_New_Leads_Last_30_Days</members>
+    <members>DB_Adoption/DB_Adoption_New_Leads_Trend</members>
+    <members>DB_Adoption/DB_Adoption_New_OPPORTUNITIES_last_30</members>
+    <members>DB_Adoption/DB_Adoption_OPPORTUNITIES_Trend</members>
+    <members>DB_Adoption/DB_Adoption_OPPORTUNITY_Trend_Owner</members>
+    <members>DB_Adoption/DB_Adoption_OPPTYS_by_STAGE_entered</members>
+    <members>DB_Adoption/DB_Adoption_OPPTYS_w_No_Opp_Product</members>
+    <members>DB_Adoption/DB_Adoption_OPPTYS_wo_Fields_Populated</members>
+    <members>DB_Adoption/DB_Adoption_PROSPECT_w_Fields_Populated</members>
+    <members>EinsteinBotReports</members>
+    <members>EinsteinBotReports_v2</members>
+    <members>unfiled$public/flow_orchestration_log_ootb_report_two_four_eight</members>
+    <members>unfiled$public/flow_orchestration_run_ootb_report_two_four_eight</members>
+    <members>unfiled$public/flow_orchestration_stage_run_ootb_report_two_four_eight</members>
+    <members>unfiled$public/flow_orchestration_step_run_ootb_report_two_four_eight</members>
+    <members>unfiled$public/flow_orchestration_work_item_ootb_report_two_four_eight</members>
+    <members>unfiled$public/flow_screen_prebuilt_report</members>
+    <name>Report</name>
+  </types>
+  <types>
+    <members>flow_orchestration_log_ootb_crt_two_four_eight</members>
+    <members>flow_orchestration_run_ootb_crt_two_four_eight</members>
+    <members>flow_orchestration_stage_run_ootb_crt_two_four_eight</members>
+    <members>flow_orchestration_step_run_ootb_crt_two_four_eight</members>
+    <members>flow_orchestration_work_item_ootb_crt_two_four_eight</members>
+    <members>screen_flows_prebuilt_crt</members>
+    <name>ReportType</name>
+  </types>
+  <types>
+    <members>CEO</members>
+    <members>CFO</members>
+    <members>ChannelSalesTeam</members>
+    <members>COO</members>
+    <members>CustomerSupportInternational</members>
+    <members>CustomerSupportNorthAmerica</members>
+    <members>DirectorChannelSales</members>
+    <members>DirectorDirectSales</members>
+    <members>EasternSalesTeam</members>
+    <members>InstallationRepairServices</members>
+    <members>MarketingTeam</members>
+    <members>SVPCustomerServiceSupport</members>
+    <members>SVPHumanResources</members>
+    <members>SVPSalesMarketing</members>
+    <members>VPInternationalSales</members>
+    <members>VPMarketing</members>
+    <members>VPNorthAmericanSales</members>
+    <members>WesternSalesTeam</members>
+    <name>Role</name>
+  </types>
+  <types>
+    <members>Author__c</members>
+    <members>Broker__c</members>
+    <members>Project__c</members>
+    <members>Property__c</members>
+    <members>Sprint__c</members>
+    <members>Vehicle__c</members>
+    <name>SharingRules</name>
+  </types>
+  <types>
+    <members>GetAnimalResource</members>
+    <members>leaflet</members>
+    <members>sample_data_brokers</members>
+    <members>sample_data_contacts</members>
+    <members>sample_data_properties</members>
+    <name>StaticResource</name>
+  </types>
+  <types>
+    <members>Account</members>
+    <members>Asset</members>
+    <members>Author__c</members>
+    <members>Broker__c</members>
+    <members>Campaign</members>
+    <members>Case</members>
+    <members>Contact</members>
+    <members>ContentDocument</members>
+    <members>Contract</members>
+    <members>Equipment_Maintenance_Item__c</members>
+    <members>Event</members>
+    <members>Lead</members>
+    <members>Opportunity</members>
+    <members>Order</members>
+    <members>Project__c</members>
+    <members>Property__c</members>
+    <members>ResourceAbsence</members>
+    <members>ResourcePreference</members>
+    <members>ReturnOrder</members>
+    <members>ReturnOrderLineItem</members>
+    <members>ServiceAppointment</members>
+    <members>ServiceResource</members>
+    <members>ServiceResourceSkill</members>
+    <members>ServiceTerritory</members>
+    <members>ServiceTerritoryMember</members>
+    <members>Shift</members>
+    <members>Shipment</members>
+    <members>Solution</members>
+    <members>Sprint__c</members>
+    <members>Task</members>
+    <members>Vehicle__c</members>
+    <members>WorkOrder</members>
+    <members>WorkOrderLineItem</members>
+    <name>TopicsForObjects</name>
+  </types>
+  <types>
+    <members>Account.Billing</members>
+    <members>Campaign.ViewCampaignInfluenceReport</members>
+    <members>Case.UpsellCrosssellOpportunity</members>
+    <members>Opportunity.DeliveryStatus</members>
+    <name>WebLink</name>
+  </types>
+  <types>
+    <members>Case.ChangePriorityToHigh</members>
+    <name>WorkflowFieldUpdate</name>
+  </types>
+  <version>55.0</version>
+</Package>
