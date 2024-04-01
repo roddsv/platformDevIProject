@@ -1,4 +1,4 @@
-<apex:page controller="cc2">
+<apex:page controller="cc2" extensions="ext1, ext2">
     <apex:pageBlock Title="List of my Accounts">
         <apex:pageBlockTable value="{!AccountsList}" var="acc">
             <apex:column value="{!acc.id}"/>
@@ -11,4 +11,6 @@
             <apex:column value="{!opp.name}"/>
         </apex:pageBlockTable>
     </apex:pageBlock>
+    <p>{!Ext1M1}</p>
+    <p>{!Ext2M1}</p>
 </apex:page>
