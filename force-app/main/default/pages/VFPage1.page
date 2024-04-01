@@ -1,10 +1,9 @@
-<apex:page standardController="Account">
+<apex:page standardController="Account" recordSetVar="Accounts">
     <apex:pageBlock Title="Account Page">
-      <apex:pageBlockSection Title="Section 1" columns="3">
-        <apex:outputField value="{! account.name }"/>
-        <apex:outputField value="{! account.type }"/>
-        <apex:outputField value="{! account.phone }"/>
-      </apex:pageBlockSection>
+      <apex:pageBlockTable value="{!Account}" var="acc">
+        <apex:column value="{! acc.name }" />
+        <apex:column value="{! acc.type }" />
+        <apex:column value="{! acc.NumberOfEmployees }" />
+      </apex:pageBlockTable>
     </apex:pageBlock>
-
 </apex:page>
