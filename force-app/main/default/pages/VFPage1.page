@@ -1,8 +1,9 @@
 <apex:page standardController="Account">
-    <apex:pageBlock Title='Account Page'>
-      <apex:pageBlockSection Title="Section 1">
-        Name: {! account.name}<br/>
-        Type: {! account.type}<br/>
+    <apex:pageBlock Title="Account Page">
+      <apex:pageBlockSection Title="Section 1" columns="3">
+        <apex:outputField value="{! account.name }"/>
+        <apex:outputField value="{! account.type }"/>
+        <apex:outputField value="{! account.phone }"/>
       </apex:pageBlockSection>
     </apex:pageBlock>
 
