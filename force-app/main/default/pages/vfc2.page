@@ -1,0 +1,14 @@
+<apex:page controller="cc2">
+    <apex:pageBlock Title="List of my Accounts">
+        <apex:pageBlockTable value="{!AccountsList}" var="acc">
+            <apex:column value="{!acc.id}"/>
+            <apex:column value="{!acc.name}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+    <apex:pageBlock Title="List of my Opportunities">
+        <apex:pageBlockTable value="{!OpportunitiesList}" var="opp">
+            <apex:column value="{!opp.id}"/>
+            <apex:column value="{!opp.name}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>
